@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary: #f3453d;
+    --secondary: #bb64a0;
+    --bg-body: #1f1d21;
+    --font-default: 'TT Firs Neue Trial Medium';
+    --color: #fff;
+}
+
+body {
+    color: var(--color);
+    background-color: var(--bg-body) !important;
+    background-color: #1f1d21;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24'%3E%3Cg fill='%23fbfafb' fill-opacity='0.01'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+}
+input, select{
+/* s */
+}
+/* * {
+    color: var(--color);
+} */
+
+.linear-gradient,
+.linear-gradient-bouton {
+
+    /* background: #1f1d21;
+
+    background: linear-gradient(0deg, #1f1d21, #2d3a33 ,#37854d, #61a374);
+
+    background: -moz-linear-gradient(135deg, #1f1d21, #2d3a33 ,#37854d, #61a374);
+
+    background: -webkit-linear-gradient(135deg, #1f1d21, #2d3a33 ,#37854d,#61a374);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstl="#61a374", endColorstl="#1f1d21", GradientType=1 ); */
+
+
+    background: linear-gradient(135deg, #1f1d21, #2d3a33, #37854d, #61a374);
+    transition: background .7s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    /*background: rgb(31,29,33);
+    background: linear-gradient(87deg, rgba(31,29,33,1), rgba(45,58,51,1) 32%, rgba(55,133,77,1) 58%, rgba(97,163,116,1) 100%); */
+}
+
+.linear-gradient-bouton {
+    position: relative;
+}
+
+/* .linear-gradient-bouton > * {
+
+    z-index: 10;
+} */
+
+.linear-gradient-bouton-hover-enter {
+    background: linear-gradient(135deg, #2d3a33, #37854d, #61a374);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0%;
+    bottom: 0;
+    z-index: 1;
+    position: absolute;
+    animation: hoverGradient .7s forwards;
+    /* background: linear-gradient(-135deg, #1f1d21, #2d3a33, #37854d, #61a374);
+    background: rgb(31,29,33);
+    background: linear-gradient(87deg, rgba(31,29,33,1), rgba(45,58,51,1) 32%, rgba(55,133,77,1) 58%, rgba(97,163,116,1) 100%); */
+}
+.linear-gradient-bouton-hover-leave {
+    background: linear-gradient(135deg, #2d3a33, #37854d, #61a374);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0%;
+    bottom: 0;
+    z-index: 1;
+    position: absolute;
+
+    animation: hoverGradientReverse 3s forwards;
+    /* background: linear-gradient(-135deg, #1f1d21, #2d3a33, #37854d, #61a374);
+    background: rgb(31,29,33);
+    background: linear-gradient(87deg, rgba(31,29,33,1), rgba(45,58,51,1) 32%, rgba(55,133,77,1) 58%, rgba(97,163,116,1) 100%); */
+}
+
+
+
+@keyframes hoverGradientReverse {
+    0% {
+
+        opacity: 100%;
+
+
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    100% {
+
+        opacity: 0%;
+
+
+    }
+}
+
+@keyframes hoverGradient {
+    0% {
+        left: 0%;
+        opacity: 0%;
+    }
+
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+
+.linear-gradient-border {
+    position: relative;
+    overflow: hidden;
+    background-color: #f3453d;
+    background: linear-gradient(135deg, #1f1d21, #2d3a33, #37854d, #61a374);
+
+
+}
+
+.linear-gradient-border::before {
+    content: "";
+    background: linear-gradient(135deg, #1f1d21, #2d3a33, #37854d, #61a374);
+    left: -200%;
+    width: 200%;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    position: absolute;
+    transition: all 3s ease-in-out;
+
+
+}
+
+.linear-gradient-border:hover::before {
+    transition: all 3s ease-in-out;
+
+    animation: slideGradient 3s ease-in-out forwards;
+    /* Relance l'animation au survol */
+}
+
+/* Définition de l'animation */
+@keyframes slideGradient {
+    0% {
+        left: -200%;
+        top: 50%;
+        height: 20%;
+
+        opacity: 100%;
+    }
+
+    10% {
+        height: 100%;
+        top: 0;
+
+    }
+
+    40% {
+        opacity: 100%;
+
+    }
+
+    100% {
+        height: 100%;
+        opacity: 0;
+        left: 0;
+    }
+}
+
+/* .linear-gradient-border:hover::before {
+    left: 0px;
+    transition: all 3s ease-in-out;
+
+
+} */
+
+
+.transition {
+    transition: all 0.5s ease-in-out;
+}
+
+.rien {
+    color: #292629;
+    color: rgba(44, 189, 124, 0.334);
+
+
+}
+
+.active-realisation{
+    background-color: #292629;
+}

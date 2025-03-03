@@ -1,0 +1,487 @@
+body {
+    color: #585656;
+    background-color: #1f1d21;
+    /*  color: #341667; */
+}
+
+
+
+.image {
+    border-radius: 10px;
+    border-left: 1px solid rgba(58, 6, 61, 0.3019607843);
+    border-top: 1px solid rgba(58, 6, 61, 0.3);
+    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+}
+
+.boutton {
+    background: rgba(58, 6, 61, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-left: 1px solid rgba(58, 6, 61, 0.3);
+    border-top: 1px solid rgba(58, 6, 61, 0.3);
+    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+}
+
+.boutton:hover {
+    background: rgba(6, 61, 50, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-left: 1px solid rgba(6, 61, 50, 0.5);
+    border-top: 1px solid rgba(6, 61, 50, 0.5);
+    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+}
+
+.boutton-inverse {
+    background: rgba(6, 61, 50, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-left: 1px solid rgba(6, 61, 50, 0.5);
+    border-top: 1px solid rgba(6, 61, 50, 0.5);
+    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+}
+
+.boutton-inverse:hover {
+    background: rgba(58, 6, 61, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-left: 1px solid rgba(58, 6, 61, 0.3);
+    border-top: 1px solid rgba(58, 6, 61, 0.3);
+    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+}
+
+.border-drop {
+    border-left: 3px solid rgb(195, 177, 196) !important;
+}
+
+.backDrop-blur-10 {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+}
+
+.drop {
+    background: rgba(58, 6, 61, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-left: 1px solid rgba(58, 6, 61, 0.3);
+    border-top: 1px solid rgba(58, 6, 61, 0.3);
+    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+}
+
+.drop-normal {
+    background: rgba(255, 255, 255, 0.1450980392);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-left: 1px solid rgba(255, 255, 255, 0.1450980392);
+    border-top: 1px solid rgba(255, 255, 255, 0.1450980392);
+    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+}
+
+.drop-normal:focus {
+    box-shadow: none !important;
+    outline: none;
+    border: none;
+}
+.drop-normal:focus-visible{
+    box-shadow: none !important;
+    outline: none;
+    border: none;
+
+}
+.drop-hover:hover {
+    background: rgba(58, 6, 61, 0.3019607843);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-left: 1px solid rgba(58, 6, 61, 0.3);
+    border-top: 1px solid rgba(58, 6, 61, 0.3);
+    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+}
+
+.drop-hover:hover p {
+    color: rgb(13, 148, 136);
+}
+
+.drop-vert {
+    background: rgba(13, 148, 137, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-left: 1px solid rgba(13, 148, 137, 0.3);
+    border-top: 1px solid rgba(13, 148, 137, 0.3);
+    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+}
+
+.drop-secondary {
+    background: rgb(40, 37, 40);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-left: 1px solid rgb(57, 53, 57);
+    border-top: 1px solid rgb(57, 53, 57);
+    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+}
+
+.drop-degrate-two {
+    background: linear-gradient(180deg, rgba(121, 23, 206, 0.7333333333), #10002b) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-left: 1px solid rgba(58, 6, 61, 0.3);
+    border-top: 1px solid rgba(58, 6, 61, 0.3);
+    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+}
+
+.drop-degrate {
+    background: linear-gradient(160deg, rgba(13, 148, 137, 0.4), rgba(122, 44, 191, 0.3921568627)) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-left: 1px solid rgba(58, 6, 61, 0.3);
+    border-top: 1px solid rgba(58, 6, 61, 0.3);
+    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+}
+
+.drop-degrate:hover {
+    background: linear-gradient(160deg, #0d9489, #7a2cbf) !important;
+    box-shadow: 10px 10px 60px -8px rgba(249, 248, 248, 0.2);
+}
+
+
+
+/* ===================== HEADER ================= */
+#main-header {
+    /*  border-radius: 0px 0px 30px 30px;
+
+
+     backdrop-filter: blur(10px);
+     -webkit-backdrop-filter: blur(10px);
+     border-left: 1px solid rgba(58, 6, 61, 0.3);
+     border-top: 1px solid rgba(58, 6, 61, 0.3);
+     box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2); */
+
+}
+
+.item-menu {
+    color: #c1bfbf;
+    transition: color .3s ease-in-out;
+    /* color: #22183063; */
+}
+
+.item-menu:hover {
+    color: #fff !important;
+}
+
+.active {
+    color: #fff;
+}
+
+/* ===================== FOOTER ================= */
+#footer {
+    border-radius: 60px 60px 0px 0px;
+}
+
+/* =====================ACCUEUIL================= */
+/* >after heros */
+.image_premiere_after_heros {
+    width: 75%;
+    margin: 0px auto;
+    padding: 0;
+    transform: translateY(-50px);
+    /* animation: UpDown 1.3s ease 0s infinite alternate; */
+}
+
+/* Animations */
+@keyframes UpDown {
+    0% {
+        transform: translateY(7px);
+    }
+
+    100% {
+        transform: translateY(-7px);
+    }
+
+    /* FIN Animations */
+}
+
+.small_hight_title {
+    font-weight: lighter;
+}
+
+/* -----Section de presentation visuel des services ------- */
+.dynamic-part-service {
+    transform: translateY(-30px);
+}
+
+.dynamic-part-service .dynamic-part-service_prolongement {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: calc(-100vw + 100%);
+}
+
+.details_services {
+    /* ff80b5
+    9089fc
+    */
+}
+
+.details_services .details_services_menu {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0.75em;
+}
+
+.details_services .details_services_menu .active {
+    background-color: rgba(176, 173, 173, 0.38);
+    padding: 0px 10px;
+    border-radius: 0.75em;
+}
+
+.scroll-auto {
+    overflow-x: hidden;
+}
+
+.rien {
+    color: #7b2cbf;
+    color: #10002b;
+    color: #e0aaff;
+}
+
+/*
+  10002b
+  7b2cbf
+  e0aaff
+  */
+/* ################ APP CREATION ################ */
+#app-creation {
+    background: url("/public/image/salon_lumiere.webp") center center cover !important;
+}
+
+body_component {
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    border-radius: 0.75em;
+    background-color: #030303;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    padding: 3px 60px;
+    box-shadow: 0 1px 21px rgba(36, 159, 9, 0.788);
+}
+
+a {
+    text-decoration: none;
+    /*  color: #fff; */
+}
+
+.header_site_web {
+    padding: 5px 20px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+.container_site_web {
+    display: flex;
+    align-items: center;
+    /*  justify-content: space-between; */
+    margin: 15px 0em 0px 0em;
+}
+
+.logo {
+    color: #fff;
+    margin-right: 3em;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+
+    /* border: 1px solid #000; */
+}
+
+.menu-item {
+    margin: 10px 2em 0px 2em;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.buttons a {
+    color: aliceblue;
+    margin: 0 10px;
+    padding: 10px 15px;
+    /*     box-shadow: #000 7px 7px 19px; */
+    border-radius: 10px;
+    background-color: rgb(68, 134, 185);
+}
+
+.buttons .login_co {
+    background-color: #5f5d5dac;
+}
+
+.presentation {
+    margin-top: 5em;
+}
+
+.presentation h1 {
+    font-size: 45px;
+    margin: 10px 0px;
+}
+
+.presentation p {
+    margin: 10px 0px;
+}
+
+.presentation .buttons {
+
+    margin: 30px 0px;
+}
+
+/* about code */
+
+#img-object {
+
+
+    background-image: url('../img/orange.png');
+    background-size: cover;
+    /* ou contain */
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    /* Ajuste selon tes besoins */
+    border: #0d9489 solid 2px;
+
+}
+
+/* test chat gpt */
+
+.glassmorphism-card {
+
+
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.glassmorphism-card::before {
+    content: '';
+    position: absolute;
+    bottom: -40%;
+    left: -40%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(47, 150, 57, 0.329);
+    filter: blur(40px);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    /* backdrop-filter: blur(50px); */
+    opacity: 0;
+}
+
+.glassmorphism-card:hover::before {
+
+    /* transform: translate(50%, 50%);*/
+    opacity: 1;
+}
+
+.glassmorphism-card:hover {
+
+    /*  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); */
+}
+
+
+.service-card {
+    text-align: center;
+}
+
+.service-card,
+.stt-box {
+    background: rgba(0, 0, 0, 0.494);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover,
+.stat-box:hover {
+    transform: translateY(-10px);
+    /* box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); */
+}
+
+.service-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ff4081;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e91e63;
+}
+
+.statistics {
+    margin: 40px 0;
+}
+
+.stats-container {
+    display: flex;
+    gap: 5px 15px;
+    margin: 0px;
+    justify-content: center;
+}
+
+.stat-box h3 {
+    color: #fff;
+    font-size: 2.5em;
+}
+
+.stat-box p {
+    color: #ddd;
+    font-size: 1em;
+}
+
+.cta-final {
+    margin: 50px 0;
+}
+
+.cta-final h2 {
+    color: #fff;
+    font-size: 2em;
+}
+
+.cta-final .cta-button {
+    margin-top: 20px;
+}
